@@ -11,7 +11,7 @@ tabtitle = 'Hiking Options - Assiniboine'
 list_of_options=['Via Bryant Creek And Assiniboine Pass', 'Via Wonder Pass And Bryant Creek', 'Via Sunshine Village']
 list_of_images=['Assiniboine_Pass.jpg', 'Marvel_Pass.jpg', 'Citadel_Pass.jpg']
 sourceurl = 'https://xkcd.com/'
-githublink = 'https://github.com/austinlasseter/dash-callbacks-radio'
+githublink = 'https://github.com/jocegarr/pythonclass-hmwk6'
 
 
 ########## Set up the chart
@@ -32,6 +32,7 @@ app.layout = html.Div(children=[
                 {'label':list_of_options[0], 'value':list_of_images[0]},
                 {'label':list_of_options[1], 'value':list_of_images[1]},
                 {'label':list_of_options[2], 'value':list_of_images[2]},
+                {'label':list_of_options[3], 'value':list_of_images[3]}
                 ],
         value=list_of_images[3],
         ),
